@@ -1,7 +1,6 @@
 # Simplistick ZSH Theme
 
-PROMPT='
-%{$fg[white]%}>%{$reset_color%} $(_git_prompt_info)%{$fg[green]%}%~%{$reset_color%}
+PROMPT='%{$fg[white]%}>%{$reset_color%} $(_git_prompt_info)%{$fg[green]%}%~%{$reset_color%}
 %{$fg[$CARETCOLOR]%}%%%{$resetcolor%} '
 
 PROMPT2='%{$fg[$CARETCOLOR]%}>%{$reset_color%} '
